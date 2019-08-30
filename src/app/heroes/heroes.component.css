@@ -2,7 +2,7 @@
 .heroes {
     margin: 0 0 2em 0;
     list-style-type: none;
-    padding: none;
+    padding: 0;
     width: 15em;
 }
 
@@ -23,9 +23,16 @@
     left: .1em;
 }
 
-.heroes li.selected {
-    background-color: #CFD8DC;
-    color: white;
+.heroes a {
+    color: #333;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    width: 250px;
+}
+
+.heroes a:hover {
+    color: #607D8B;
 }
 
 .heroes .badge {
